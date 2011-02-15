@@ -53,7 +53,7 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
-helptags ~/.vim/doc
+"helptags ~/.vim/doc
 " pathogen setting
 call pathogen#runtime_append_all_bundles()
 " zen-coding setting
