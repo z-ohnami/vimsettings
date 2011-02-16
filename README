@@ -1,1 +1,5 @@
 this is vim settings file
+
+taglist.vim needs ctags
+sudo apt-get install exuberant-ctags
+
