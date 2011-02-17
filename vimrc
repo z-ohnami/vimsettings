@@ -58,3 +58,17 @@ endif
 call pathogen#runtime_append_all_bundles()
 " zen-coding setting
 let g:user_zen_settings = { 'indentation':'    ' }
+"for python
+filetype plugin on
+autocmd FileType python setl autoindent
+autocmd FileType python setl smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
+autocmd FileType python setl expandtab tabstop=4 shiftwidth=4 softtabstop=4
+
+" Execute python script C-P
+function! s:ExecPy()
+    exe "!" . &ft . "%"
+:endfunction
+command! Exec call <SID>ExecPy()
+autocmd FileType python map <silent> <C-P> :call <SID>ExecPy()<CR>
+" for pydiction
+autocmd Filetype python let g:pydiction_location = '~/.vim/bundle/pydiction-1.2/complete-dict'

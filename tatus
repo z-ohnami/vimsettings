@@ -1,0 +1,41 @@
+commit def6968b97f599f352c338fa05531df42a378123
+Author: z-oh <z-oh@oh.(none)>
+Date:   Thu Feb 17 00:11:43 2011 +0900
+
+    changed README
+
+commit 593a434c53fb8d04d4945560149e74f43aab9314
+Author: Makoto Ohnami <z.ohnami@gmail.com>
+Date:   Wed Feb 16 12:45:25 2011 +0900
+
+    added taglist
+
+commit 35ab3c2af14ded26a5473d2e4dfc3ca18dae4ec4
+Author: Makoto Ohnami <z.ohnami@gmail.com>
+Date:   Wed Feb 16 08:47:23 2011 +0900
+
+    add zen-coding
+
+commit a137408c8a71d86786a1294b2ea70c38ce6efff1
+Author: Makoto Ohnami <z.ohnami@gmail.com>
+Date:   Wed Feb 16 08:36:58 2011 +0900
+
+    change dir
+
+commit ec2128223620130fa72f3f184c58f8e69756dfde
+Author: Makoto Ohnami <z.ohnami@gmail.com>
+Date:   Tue Feb 15 08:50:56 2011 +0900
+
+    add readme
+
+commit 411a3275ebfb74fb68286fa4d8b6eb36184a1bc8
+Author: Makoto Ohnami <z.ohnami@gmail.com>
+Date:   Tue Feb 15 08:45:33 2011 +0900
+
+    delete files
+
+commit c0ebaa27c99e7275517a0231b553b27d16e10c95
+Author: Makoto Ohnami <z.ohnami@gmail.com>
+Date:   Tue Feb 15 08:33:33 2011 +0900
+
+    first commit
