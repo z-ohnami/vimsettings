@@ -1,7 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/ohnami/Dropbox/flask/flask'
-let g:netrw_dirhist_2='/home/ohnami/Dropbox/flask'
-let g:netrw_dirhist_3='/home/ohnami/Dropbox/flask/examples'
-let g:netrw_dirhist_4='/home/ohnami/Dropbox/flask/examples/flaskr'
-let g:netrw_dirhist_5='/home/ohnami/Dropbox/flask/flask'
+let g:netrw_dirhist_cnt =0

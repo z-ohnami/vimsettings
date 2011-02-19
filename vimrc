@@ -54,6 +54,17 @@ if filereadable("/etc/vim/vimrc.local")
 endif
 
 :set number
+"for input close blanket
+inoremap { {}<LEFT>
+inoremap [ []<LEFT>
+inoremap " ""<LEFT>
+inoremap ' ''<LEFT>
+inoremap ( ()<LEFT>
+vnoremap { "zdi^V{<C-R>z}<ESC>
+vnoremap [ "zdi^V[<C-R>z]<ESC>
+vnoremap ( "zdi^V(<C-R>z)<ESC>
+vnoremap " "zdi^V"<C-R>z"<ESC>
+vnoremap ' "zdi^V'<C-R>z'<ESC>
 "helptags ~/.vim/doc
 " pathogen setting
 call pathogen#runtime_append_all_bundles()
