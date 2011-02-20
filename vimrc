@@ -84,3 +84,6 @@ command! Exec call <SID>ExecPy()
 autocmd FileType python map <silent> <C-P> :call <SID>ExecPy()<CR>
 " for pydiction
 autocmd Filetype python let g:pydiction_location = '~/.vim/bundle/pydiction-1.2/complete-dict'
+" for ospsplorer
+:let s:show_hidden_files=1
+:let s:split_width=20
