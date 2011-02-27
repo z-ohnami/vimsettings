@@ -3,3 +3,5 @@ this is vim settings file
 taglist.vim needs ctags
 sudo apt-get install exuberant-ctags
 
+git submodule add https://github.com/mattn/zencoding-vim.git vim/bundle/zencoding-vim
+
